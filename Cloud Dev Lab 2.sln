@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud Dev Lab 2", "Cloud Dev Lab 2\Cloud Dev Lab 2.csproj", "{B5ECD75C-30C4-48FA-84C3-8EC3ADCED3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud Dev Lab 2 Class Library", "Cloud Dev Lab 2 Class Library\Cloud Dev Lab 2 Class Library.csproj", "{59550217-75EF-42C8-9C42-CF218B482B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5ECD75C-30C4-48FA-84C3-8EC3ADCED3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5ECD75C-30C4-48FA-84C3-8EC3ADCED3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5ECD75C-30C4-48FA-84C3-8EC3ADCED3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5ECD75C-30C4-48FA-84C3-8EC3ADCED3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59550217-75EF-42C8-9C42-CF218B482B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59550217-75EF-42C8-9C42-CF218B482B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59550217-75EF-42C8-9C42-CF218B482B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59550217-75EF-42C8-9C42-CF218B482B18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8567F7EB-AC96-46B1-B670-28B8334FB870}
+	EndGlobalSection
+EndGlobal
