@@ -9,22 +9,20 @@ namespace Cloud_Dev_Lab_2_Class_Library
 {
     public class Circle:Shape2D
     {
-        public override float Area { get; //formula  }
+        public override float Area { get { return 3.14f * (Radius * Radius); }  }
         public override Vector3 Center { get; }
-        public override float Circumference { get { 
-            return //formulan 
-            } }
-        private float R = 0;
+        public override float Circumference { get { return 2 * 3.14f * Radius; } }
+        private float Radius;
 
-        public Circle(Vector2 _Center, float Radius)
+        public Circle(Vector2 C, float R)
         {
-            Center = new Vector3(_Center, 0.0f);
-            R = Radius;
+            Center = new Vector3(C, 0.0f);
+            Radius = R;
         }
 
         public override string ToString()
         {
-            return $"Circle @{Center.X} {Center.Y}: r{R}";
+            return $"Circle @{Center.Y} {Center.X}: r = {Radius}";
         }
     }
 }
