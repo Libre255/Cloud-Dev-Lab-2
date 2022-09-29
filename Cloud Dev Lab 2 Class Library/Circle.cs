@@ -20,9 +20,6 @@ namespace Cloud_Dev_Lab_2_Class_Library
             Radius = R;
         }
 
-        public override string ToString()
-        {
-            return $"Circle @{Center.Y} {Center.X}: r = {Radius}";
-        }
+        public override string ToString() => $"circle @({Center.Y} {Center.X}): r = {Radius}";
     }
 }

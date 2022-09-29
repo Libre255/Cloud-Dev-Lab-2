@@ -13,7 +13,7 @@ namespace Cloud_Dev_Lab_2_Class_Library
         public override float Area { get { return Width * Height; } }
         public override Vector3 Center { get; }
         public override float Circumference { get { return 2 * (Width * Height); } }
-        public bool IsSquare { get { return Width == Height ? true : false; } }
+        public string IsSquare { get { return Width == Height ? "square" : "rectangle"; } }
         private float Width;
         private float Height;
 
@@ -30,9 +30,6 @@ namespace Cloud_Dev_Lab_2_Class_Library
             Height = w;
         }
 
-        public override string ToString()
-        {
-            return $"{(IsSquare ? "square" : "rectangle")} @({Center.Y}, {Center.X}): w = {Width}, h = {Height}.";
-        }
+        public override string ToString() => $"{IsSquare} @({Center.Y}, {Center.X}): w = {Width}, h = {Height}.";
     }
 }
