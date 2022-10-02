@@ -9,9 +9,9 @@ namespace Cloud_Dev_Lab_2_Class_Library
 {
     public class Circle:Shape2D
     {
-        public override float Area { get { return 3.14f * (Radius * Radius); }  }
+        public override float Area { get { return (float)Math.PI * (float)Math.Pow(Radius, 2); }  }
         public override Vector3 Center { get; }
-        public override float Circumference { get { return 2 * 3.14f * Radius; } }
+        public override float Circumference { get { return 2 * (float)Math.PI * Radius; } }
         private float Radius;
 
         public Circle(Vector2 C, float R)

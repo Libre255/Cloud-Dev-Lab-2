@@ -20,7 +20,7 @@ namespace Cloud_Dev_Lab_2
         static public Shape[] ArrayOfShapes()
         {
             List<Shape> SL = new();
-            for(int i = 0; i < 21; i++)
+            for(int i = 0; i < 20; i++)
             {
                 SL.Add(Shape.GenerateShape());
             }
