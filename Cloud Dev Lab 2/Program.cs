@@ -19,12 +19,12 @@ namespace Cloud_Dev_Lab_2
         }
         static public Shape[] ArrayOfShapes()
         {
-            List<Shape> SL = new();
+            List<Shape> shapeList = new();
             for(int i = 0; i < 20; i++)
             {
-                SL.Add(Shape.GenerateShape());
+                shapeList.Add(Shape.GenerateShape());
             }
-            return SL.ToArray();
+            return shapeList.ToArray();
         }
     }
 }
