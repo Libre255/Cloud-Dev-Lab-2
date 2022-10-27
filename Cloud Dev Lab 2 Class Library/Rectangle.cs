@@ -12,7 +12,7 @@ namespace Cloud_Dev_Lab_2_Class_Library
     {
         public override float Area { get { return Width * Height; } }
         public override Vector3 Center { get; }
-        public override float Circumference { get { return 2 * (Width * Height); } }
+        public override float Circumference { get { return 2 * (Width + Height); } }
         public string IsSquare { get { return Width == Height ? "square" : "rectangle"; } }
         private float Width;
         private float Height;
